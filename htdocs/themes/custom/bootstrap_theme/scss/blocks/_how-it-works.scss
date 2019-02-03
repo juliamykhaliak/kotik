@@ -1,0 +1,21 @@
+#block-promotion-ideas-{
+  @include container-how-it-works();
+  background-image: url("../images/how_it_works_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .field--name-field-text {
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: rgb(255,255,255);
+  }
+  .field--name-field-link {
+    margin-top: 30px;
+    a {
+      @include blue-button();
+    }
+    a:hover {
+      @include blue-button-hover();
+    }
+  }
+}

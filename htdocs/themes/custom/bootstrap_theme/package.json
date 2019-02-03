@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "gulp": "*",
+        "main-bower-files": "*",
+        "gulp-load-plugins": "*",
+        "browser-sync": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-sass": "*",
+        "gulp-shell": "*",
+        "gulp-uglify": "*",
+        "gulp-notify": "*",
+        "gulp-beautify": "*",
+        "gulp-sourcemaps": "*",
+        "gulp-imagemin": "*",
+        "gulp-jshint": "*",
+        "jshint": "*",
+        "gulp-concat": "*"
+    }
+}

@@ -1,0 +1,45 @@
+#block-howitworks {
+  padding: 23px 14%;
+  background-color: $previews-background;
+  .field--name-body p {
+    color: $navigation-footer-background-color;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+.path-how-it-works {
+  .region-content {
+    padding: 80px 19%;
+  }
+  .field--name-field-title {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: $navigation-footer-background-color;
+  }
+  .field--name-field-description {
+    color: $color-text-nodes-content;
+    font-size: $link-plain-text-size;
+    line-height: 2.5rem;
+    margin: 25px 0;
+  }
+  .field--name-field-link-button {
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      @include blue-button;
+      font-weight: bold;
+    }
+    a:hover {
+      @include blue-button-hover;
+      color: $link-color;
+    }
+  }
+  #block-register,
+  #block-submitadsecondblock {
+    display: flex;
+    align-items: center;
+  }
+  #block-submitadsecondblock {
+    flex-direction: row-reverse;
+  }
+}

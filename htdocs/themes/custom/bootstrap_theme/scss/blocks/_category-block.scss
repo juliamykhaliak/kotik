@@ -1,0 +1,27 @@
+#block-specificcategorystring {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding-top: 15px;
+}
+#block-specificcategorystring,
+#block-views-block-preview-photo-of-content-landing-page-block-1 {
+  background-color: $previews-background;
+}
+#block-views-block-preview-photo-of-content-landing-page-block-1 {
+  display: flex;
+  justify-content: center;
+  img {
+    margin: 15px;
+  }
+  .views-field-title {
+    position: relative;
+    top: -60px;
+    left: 44px;
+    a {
+      color: rgb(255,255,255);
+      font-weight: bold;
+      font-size: 2.3rem;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.footer {
+  padding: 40px 12%;
+  background-color: $navigation-footer-background-color;
+  color: rgb(255,255,255);
+  .field--name-body {
+    font-size: 1.5rem;
+    p {
+      margin-right: 300px;
+    }
+  }
+  .fontawesome-icons {
+    display: flex;
+  }
+  .fontawesome-icon {
+    margin-right: 25px;
+    margin-top: 15px;
+  }
+  #block-followus,
+  #block-payments {
+    .field--name-field-label {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  #block-firstfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #block-followus {
+    margin-right: 70px;
+  }
+  #block-madebyin {
+    p {
+      text-align: center;
+      color: rgb(179, 179, 179);
+      margin-right: 0;
+    }
+    #julia {
+      color: rgb(255,255,255);
+    }
+    .field--type-text-with-summary {
+      margin-top: 30px;
+    }
+  }
+}

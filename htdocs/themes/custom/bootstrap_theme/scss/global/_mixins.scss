@@ -1,0 +1,32 @@
+@mixin container-navigation {
+  padding: 23px 12%;
+}
+@mixin container-top-bar {
+  padding: 180px 12%;
+}
+@mixin container-more-details-block {
+  padding: 70px 12%;
+}
+@mixin container-how-it-works {
+  padding: 150px 25%;
+}
+@mixin footer-container {
+  padding: 40px 12%;
+}
+@mixin content-nodes-container {
+  margin: 20px 12%;
+  padding: 30px;
+}
+@mixin blue-button {
+  font-size: 1.5rem;
+  background-color: $link-color;
+  color: rgb(255,255,255);
+  padding: 7px 10px;
+  border: 2px $link-color solid;
+  border-radius: 2px;
+  transition: all .3s;
+}
+@mixin blue-button-hover {
+  text-decoration: none;
+  background-color: transparent;
+}

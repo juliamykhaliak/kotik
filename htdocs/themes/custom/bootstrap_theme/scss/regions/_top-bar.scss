@@ -1,0 +1,19 @@
+#block-topbarmaintitle {
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @include container-top-bar();
+  #creativity {
+    color: rgb(255,255,255);
+    font-size: 6rem;
+  }
+  #life-style {
+    color: $text-footer-color;
+    font-size: 3.77rem;
+  }
+  .field--name-field-subtitle {
+    color: $link-color;
+    font-size: 1.5rem;
+  }
+}
