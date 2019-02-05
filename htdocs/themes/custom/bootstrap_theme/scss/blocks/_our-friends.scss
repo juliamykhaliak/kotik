@@ -9,7 +9,7 @@
 background-color: $our-friends-block-background;
   text-align: center;
   img {
-    margin: 58px auto;
+    margin: 58px auto 0;
   }
 }
 #block-ourofficesstring {
@@ -19,5 +19,25 @@ background-color: $our-friends-block-background;
     font-weight: bold;
     color: $navigation-footer-background-color;
     margin: 60px 0;
+  }
+}
+#block-ourfriendsslider {
+  .slick__arrow {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 21px;
+  }
+  .slick-arrow {
+    border-radius: 50px;
+    border: none;
+    width: 71px;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    &:first-child {
+      margin-right: 1%;
+    }
+    &:last-child {
+      margin-left: 1%;
+    }
   }
 }

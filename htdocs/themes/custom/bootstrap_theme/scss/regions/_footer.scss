@@ -4,9 +4,6 @@
   color: rgb(255,255,255);
   .field--name-body {
     font-size: 1.5rem;
-    p {
-      margin-right: 300px;
-    }
   }
   .fontawesome-icons {
     display: flex;
@@ -21,6 +18,7 @@
       font-size: 2rem;
       font-weight: bold;
     }
+    flex: 25%;
   }
   #block-firstfooter {
     display: flex;
@@ -42,5 +40,10 @@
     .field--type-text-with-summary {
       margin-top: 30px;
     }
+  }
+  #block-bestsitestring {
+    flex: 50%;
+    padding-left: 10%;
+    padding-right: 1%;
   }
 }

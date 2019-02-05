@@ -1,0 +1,6 @@
+bartik.mobile:
+  label: mobile
+  mediaQuery: 'screen and (max-width: 660px)'
+  weight: 0
+  multipliers:
+    - 1x
