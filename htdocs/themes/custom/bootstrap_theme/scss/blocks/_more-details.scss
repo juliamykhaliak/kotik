@@ -19,6 +19,7 @@
   .field--name-field-link {
     a {
       @include blue-button();
+      white-space: nowrap;
     }
     a:hover {
      @include blue-button-hover();

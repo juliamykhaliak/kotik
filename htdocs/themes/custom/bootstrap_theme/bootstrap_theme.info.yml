@@ -22,3 +22,4 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - bootstrap_theme/framework
+    - bootstrap_theme/custom

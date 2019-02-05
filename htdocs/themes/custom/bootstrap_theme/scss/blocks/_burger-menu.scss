@@ -1,0 +1,36 @@
+#block-burgermenu {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  flex: 1%;
+  margin-left: 25%;
+  @media (min-width: $mobile) {
+    display: none;
+  }
+}
+#navbar #block-mainmenu {
+  @media (max-width: $mobile) {
+    position: absolute;
+    left: 0;
+    top: 82px;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    z-index: 10;
+    background-color: $navigation-footer-background-color;
+  }
+  &.burger-menu {
+    @media (max-width: $mobile) {
+      height: 164px;
+    }
+  }
+}
+#block-burgermenu.cross {
+  background-image: url("../images/close.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21.88px;
+  .svg-inline--fa {
+    width: 0;
+  }
+}
