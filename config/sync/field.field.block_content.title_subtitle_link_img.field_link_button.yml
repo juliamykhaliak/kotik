@@ -1,0 +1,23 @@
+uuid: eba4a00b-2575-430c-8820-f560f60aa617
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.title_subtitle_link_img
+    - field.storage.block_content.field_link_button
+  module:
+    - link
+id: block_content.title_subtitle_link_img.field_link_button
+field_name: field_link_button
+entity_type: block_content
+bundle: title_subtitle_link_img
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,25 @@
+uuid: 3da9311c-0769-4ba5-9e12-04eba4434599
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:icons_and_text:66a63bb7-1d30-4ade-96be-84fe3b867ccd'
+  module:
+    - block_content
+  theme:
+    - bootstrap_theme
+id: payments
+theme: bootstrap_theme
+region: first_footer
+weight: -12
+provider: null
+plugin: 'block_content:66a63bb7-1d30-4ade-96be-84fe3b867ccd'
+settings:
+  id: 'block_content:66a63bb7-1d30-4ade-96be-84fe3b867ccd'
+  label: Payments
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

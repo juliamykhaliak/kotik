@@ -1,0 +1,21 @@
+uuid: b600c2ed-24de-4503-adf6-02577ce19513
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icon
+    - field.storage.block_content.field_icon
+  module:
+    - fontawesome
+id: block_content.icon.field_icon
+field_name: field_icon
+entity_type: block_content
+bundle: icon
+label: icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

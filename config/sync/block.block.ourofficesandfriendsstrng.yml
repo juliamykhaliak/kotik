@@ -1,0 +1,31 @@
+uuid: 0e3a3b26-350a-4a48-b237-5ae1b8cdd378
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:26ed399e-a149-42db-a91c-53a4742e9c6f'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: ourofficesandfriendsstrng
+theme: bootstrap_theme
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:26ed399e-a149-42db-a91c-53a4742e9c6f'
+settings:
+  id: 'block_content:26ed399e-a149-42db-a91c-53a4742e9c6f'
+  label: 'Our offices and friends string'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

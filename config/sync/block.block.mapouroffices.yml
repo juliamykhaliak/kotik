@@ -1,0 +1,31 @@
+uuid: 2899bb1f-8d0a-46bc-803f-5d8c624997b4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1dd38868-e181-4a71-8fd4-03b3ec56d2a4'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: mapouroffices
+theme: bootstrap_theme
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:1dd38868-e181-4a71-8fd4-03b3ec56d2a4'
+settings:
+  id: 'block_content:1dd38868-e181-4a71-8fd4-03b3ec56d2a4'
+  label: 'Map our offices'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

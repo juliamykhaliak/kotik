@@ -1,0 +1,19 @@
+uuid: b5641d53-66d0-4744-a2b1-89bf88077bf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icons_and_text
+    - field.storage.block_content.field_label
+id: block_content.icons_and_text.field_label
+field_name: field_label
+entity_type: block_content
+bundle: icons_and_text
+label: Label
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

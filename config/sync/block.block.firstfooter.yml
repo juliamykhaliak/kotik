@@ -1,0 +1,28 @@
+uuid: 25cae579-3740-48b7-871a-079e69fe59fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.first_footer
+  module:
+    - blockgroup
+    - system
+  theme:
+    - bootstrap_theme
+id: firstfooter
+theme: bootstrap_theme
+region: footer
+weight: -15
+provider: null
+plugin: 'block_group:a93f623e-1bcd-4b3f-b984-88599e400a5e'
+settings:
+  id: 'block_group:a93f623e-1bcd-4b3f-b984-88599e400a5e'
+  label: 'First footer'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

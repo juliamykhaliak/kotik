@@ -1,0 +1,30 @@
+uuid: 1a9631e6-ca71-445a-a82c-b2119370205a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.preview_photo_of_content_landing_page_
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_theme
+id: views_block__preview_photo_of_content_landing_page__block_1
+theme: bootstrap_theme
+region: content
+weight: -11
+provider: null
+plugin: 'views_block:preview_photo_of_content_landing_page_-block_1'
+settings:
+  id: 'views_block:preview_photo_of_content_landing_page_-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

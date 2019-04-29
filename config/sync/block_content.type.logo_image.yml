@@ -1,0 +1,8 @@
+uuid: 3e52e120-87f2-49d1-8b6d-8d29f594e120
+langcode: en
+status: true
+dependencies: {  }
+id: logo_image
+label: 'Logo image'
+revision: 0
+description: ''

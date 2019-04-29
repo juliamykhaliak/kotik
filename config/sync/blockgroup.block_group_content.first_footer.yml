@@ -1,0 +1,6 @@
+uuid: a93f623e-1bcd-4b3f-b984-88599e400a5e
+langcode: en
+status: true
+dependencies: {  }
+id: first_footer
+label: 'First footer'

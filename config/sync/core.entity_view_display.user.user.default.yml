@@ -1,0 +1,47 @@
+uuid: 20a1732e-06bf-40c1-ad1a-3ffb0631b709
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_city
+    - field.field.user.user.field_number
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - telephone
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_city:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_number:
+    weight: 3
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  member_for: true

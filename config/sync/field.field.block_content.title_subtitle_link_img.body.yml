@@ -1,0 +1,22 @@
+uuid: db5198a2-3aed-407f-b090-dd909ef1490d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.title_subtitle_link_img
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.title_subtitle_link_img.body
+field_name: body
+entity_type: block_content
+bundle: title_subtitle_link_img
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

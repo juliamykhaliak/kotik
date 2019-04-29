@@ -1,0 +1,22 @@
+uuid: 699f7bef-9255-4827-9f9a-781b1fe394ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sass_bootstrap
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: sass_bootstrap_content
+theme: sass_bootstrap
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

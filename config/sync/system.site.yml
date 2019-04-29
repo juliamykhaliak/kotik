@@ -1,0 +1,14 @@
+uuid: 45705b5a-e3fc-4c62-bd07-2c9946367ed4
+name: Kotik
+mail: yulya.mhl@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

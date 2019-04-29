@@ -1,0 +1,31 @@
+uuid: 0d2084a8-e977-453e-aaf7-ee90e79d8144
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:title_subtitle_link_img:ff61f8e8-4f5b-401e-8b25-141ecef0274b'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: submitadsecondblock
+theme: bootstrap_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:ff61f8e8-4f5b-401e-8b25-141ecef0274b'
+settings:
+  id: 'block_content:ff61f8e8-4f5b-401e-8b25-141ecef0274b'
+  label: 'Submit ad(second block)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /how-it-works
+    negate: false
+    context_mapping: {  }

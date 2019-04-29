@@ -1,0 +1,20 @@
+uuid: a471c3fa-0b24-4be1-9304-a0b9c0f62a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_city
+  module:
+    - user
+id: user.user.field_city
+field_name: field_city
+entity_type: user
+bundle: user
+label: City
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: f13b3d5e-e254-44c9-9949-be2487d5a863
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachment
+    - node.type.main_content_article
+  module:
+    - fontawesome
+id: node.main_content_article.field_attachment
+field_name: field_attachment
+entity_type: node
+bundle: main_content_article
+label: attachment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

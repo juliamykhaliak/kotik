@@ -1,0 +1,26 @@
+uuid: 77e24283-9c48-431f-88d0-a65299fe8efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.logo_image
+    - field.field.block_content.logo_image.body
+    - field.field.block_content.logo_image.field_logo_image
+  module:
+    - image
+id: block_content.logo_image.default
+targetEntityType: block_content
+bundle: logo_image
+mode: default
+content:
+  field_logo_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  body: true

@@ -1,0 +1,109 @@
+uuid: 1c6a5537-1654-4b1e-bb9c-dfe094563226
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.main_content_article.body
+    - field.field.node.main_content_article.field_attachment
+    - field.field.node.main_content_article.field_image_
+    - field.field.node.main_content_article.field_keywords
+    - field.field.node.main_content_article.field_text_of_article
+    - field.field.node.main_content_article.field_title_of_article
+    - node.type.main_content_article
+  module:
+    - field_group
+    - fontawesome
+    - image
+    - user
+third_party_settings:
+  field_group:
+    group_keywords_with_ico:
+      children:
+        - field_attachment
+        - field_keywords
+      parent_name: group_text_block
+      weight: 5
+      format_type: html_element
+      format_settings:
+        id: keywords-icon
+        classes: ''
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Keywords with icon'
+      region: content
+    group_text_block:
+      children:
+        - field_title_of_article
+        - field_text_of_article
+        - group_keywords_with_ico
+      parent_name: ''
+      weight: 2
+      format_type: html_element
+      format_settings:
+        label: 'Text block'
+        element: section
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: text-block-content-node
+        classes: ''
+      label: 'Text block'
+      region: content
+id: node.main_content_article.default
+targetEntityType: node
+bundle: main_content_article
+mode: default
+content:
+  field_attachment:
+    weight: 5
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+  field_image_:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_keywords:
+    weight: 6
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_text_of_article:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_title_of_article:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true

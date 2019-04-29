@@ -1,0 +1,25 @@
+uuid: ca834218-7bda-41f7-84a8-145e4e9a4d7c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo_image:6cd58180-6c7f-4de5-843f-8ebb7146df4b'
+  module:
+    - block_content
+  theme:
+    - bootstrap_theme
+id: logo
+theme: bootstrap_theme
+region: navigation
+weight: -15
+provider: null
+plugin: 'block_content:6cd58180-6c7f-4de5-843f-8ebb7146df4b'
+settings:
+  id: 'block_content:6cd58180-6c7f-4de5-843f-8ebb7146df4b'
+  label: 'Logo quarantie'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

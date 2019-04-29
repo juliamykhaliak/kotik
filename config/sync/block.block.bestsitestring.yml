@@ -1,0 +1,25 @@
+uuid: 7ad610c6-2a69-45dc-956c-ec44f0618da8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f6169cae-6e31-45fc-adbb-14be8d2b4de2'
+  module:
+    - block_content
+  theme:
+    - bootstrap_theme
+id: bestsitestring
+theme: bootstrap_theme
+region: first_footer
+weight: -14
+provider: null
+plugin: 'block_content:f6169cae-6e31-45fc-adbb-14be8d2b4de2'
+settings:
+  id: 'block_content:f6169cae-6e31-45fc-adbb-14be8d2b4de2'
+  label: 'Best site string'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 5256e7e6-4cae-47b5-a630-80ccc1f07b69
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text_link:f54be54f-ef0e-4d87-93b9-573102c54bd9'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: promotion_ideas_
+theme: bootstrap_theme
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:f54be54f-ef0e-4d87-93b9-573102c54bd9'
+settings:
+  id: 'block_content:f54be54f-ef0e-4d87-93b9-573102c54bd9'
+  label: 'How it works'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

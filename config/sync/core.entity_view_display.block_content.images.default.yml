@@ -1,0 +1,61 @@
+uuid: 9ea3e65d-39f5-4c99-819d-4633282faf3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.images
+    - field.field.block_content.images.body
+    - field.field.block_content.images.field_image
+  module:
+    - slick
+id: block_content.images.default
+targetEntityType: block_content
+bundle: images
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      optionset_thumbnail: ''
+      preserve_keys: false
+      skin_thumbnail: ''
+      thumbnail_caption: ''
+      thumbnail_effect: ''
+      thumbnail_position: ''
+      visible_items: 0
+      override: false
+      overridables: {  }
+      skin_arrows: ''
+      skin_dots: ''
+      cache: 0
+      current_view_mode: ''
+      optionset: default
+      skin: ''
+      style: ''
+      iframe_lazy: true
+      icon: ''
+      layout: ''
+      thumbnail_style: ''
+      view_mode: ''
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_style: ''
+      box_media_style: ''
+      breakpoints: {  }
+      caption: {  }
+      media_switch: ''
+      ratio: ''
+      responsive_image_style: ''
+      sizes: ''
+      grid: 0
+      grid_header: ''
+      grid_medium: 0
+      grid_small: 0
+    third_party_settings: {  }
+    type: slick_image
+    region: content
+hidden:
+  body: true

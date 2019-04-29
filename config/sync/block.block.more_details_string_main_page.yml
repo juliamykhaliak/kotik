@@ -1,0 +1,31 @@
+uuid: ab01144f-1b02-417c-89a1-2c5f8ccf3177
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text_link:29b9957f-31e7-45a5-b610-0bdebb536659'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: more_details_string_main_page
+theme: bootstrap_theme
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:29b9957f-31e7-45a5-b610-0bdebb536659'
+settings:
+  id: 'block_content:29b9957f-31e7-45a5-b610-0bdebb536659'
+  label: 'More details string main page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

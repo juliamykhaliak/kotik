@@ -1,0 +1,8 @@
+uuid: 94c91efa-e284-44eb-8d6d-bf122b3b7ff8
+langcode: en
+status: true
+dependencies: {  }
+id: header_block
+label: 'Header block'
+revision: 0
+description: 'Title and subtitle of main page '

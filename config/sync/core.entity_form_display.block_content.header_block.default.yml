@@ -1,0 +1,29 @@
+uuid: 70fc2a63-85f8-446e-b699-6e7380a4423b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_block
+    - field.field.block_content.header_block.field_subtitle_of_header
+id: block_content.header_block.default
+targetEntityType: block_content
+bundle: header_block
+mode: default
+content:
+  field_subtitle_of_header:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

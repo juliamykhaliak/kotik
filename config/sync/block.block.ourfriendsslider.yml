@@ -1,0 +1,31 @@
+uuid: 9ea574a7-7e29-43bd-8d00-36e7a58889c0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:images:0cd1af12-2cf9-4664-b42d-b4df1306a82a'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: ourfriendsslider
+theme: bootstrap_theme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:0cd1af12-2cf9-4664-b42d-b4df1306a82a'
+settings:
+  id: 'block_content:0cd1af12-2cf9-4664-b42d-b4df1306a82a'
+  label: 'Our friends(slider)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

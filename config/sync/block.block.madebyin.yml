@@ -1,0 +1,25 @@
+uuid: ebd49091-07de-41da-bf35-2f7c9a0b8181
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cf21284e-fa3d-4eb5-a6c2-b7c89f7a0439'
+  module:
+    - block_content
+  theme:
+    - bootstrap_theme
+id: madebyin
+theme: bootstrap_theme
+region: footer
+weight: -14
+provider: null
+plugin: 'block_content:cf21284e-fa3d-4eb5-a6c2-b7c89f7a0439'
+settings:
+  id: 'block_content:cf21284e-fa3d-4eb5-a6c2-b7c89f7a0439'
+  label: 'Made by/in'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 42a19a45-967d-452c-b427-96afa2338c3e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2e536c84-1e16-431e-86c5-2a950e43999b'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: howitworks
+theme: bootstrap_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:2e536c84-1e16-431e-86c5-2a950e43999b'
+settings:
+  id: 'block_content:2e536c84-1e16-431e-86c5-2a950e43999b'
+  label: 'How it works?'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /how-it-works
+    negate: false
+    context_mapping: {  }

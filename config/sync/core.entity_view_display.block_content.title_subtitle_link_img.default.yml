@@ -1,0 +1,87 @@
+uuid: 773dc31f-ce87-4a26-bae7-3e2a595eb552
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.title_subtitle_link_img
+    - field.field.block_content.title_subtitle_link_img.body
+    - field.field.block_content.title_subtitle_link_img.field_description
+    - field.field.block_content.title_subtitle_link_img.field_image_
+    - field.field.block_content.title_subtitle_link_img.field_link_button
+    - field.field.block_content.title_subtitle_link_img.field_title
+  module:
+    - field_group
+    - image
+    - link
+    - text
+third_party_settings:
+  field_group:
+    group_text_info_block:
+      children:
+        - body
+        - field_title
+        - field_description
+        - field_link_button
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: 'description '
+        classes: ''
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'text-info block'
+      region: content
+id: block_content.title_subtitle_link_img.default
+targetEntityType: block_content
+bundle: title_subtitle_link_img
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_image_:
+    weight: 5
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link_button:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_title:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

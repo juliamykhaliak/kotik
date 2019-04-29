@@ -1,0 +1,21 @@
+uuid: 1692e946-23c1-4ce2-8609-56653f354d6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icons_and_text
+    - field.storage.block_content.field_icons
+  module:
+    - fontawesome
+id: block_content.icons_and_text.field_icons
+field_name: field_icons
+entity_type: block_content
+bundle: icons_and_text
+label: Icons
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

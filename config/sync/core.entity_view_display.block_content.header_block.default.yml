@@ -1,0 +1,21 @@
+uuid: fb40c3fd-ddac-4af8-9337-cca4ebf5488f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_block
+    - field.field.block_content.header_block.field_subtitle_of_header
+id: block_content.header_block.default
+targetEntityType: block_content
+bundle: header_block
+mode: default
+content:
+  field_subtitle_of_header:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: d6a2ef38-3e94-4d36-9dea-09f53dc136c3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:icon:793aceeb-6697-493d-8183-b9208ace467b'
+  module:
+    - block_content
+  theme:
+    - bootstrap_theme
+id: burgermenu
+theme: bootstrap_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:793aceeb-6697-493d-8183-b9208ace467b'
+settings:
+  id: 'block_content:793aceeb-6697-493d-8183-b9208ace467b'
+  label: 'Burger menu'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

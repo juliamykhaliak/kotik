@@ -1,0 +1,31 @@
+uuid: 61af6643-215a-4e93-a020-c13c4319e280
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4500dc7e-66fe-43ad-8d3c-c6001b17c069'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_theme
+id: ourofficesstring
+theme: bootstrap_theme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:4500dc7e-66fe-43ad-8d3c-c6001b17c069'
+settings:
+  id: 'block_content:4500dc7e-66fe-43ad-8d3c-c6001b17c069'
+  label: 'Our offices string'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

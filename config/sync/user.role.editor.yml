@@ -1,0 +1,12 @@
+uuid: b547a8e6-2660-4526-8e8f-2492a66db359
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'create main_content_article content'
+  - 'delete own main_content_article content'
+  - 'edit own main_content_article content'

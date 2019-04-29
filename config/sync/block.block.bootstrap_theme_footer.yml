@@ -1,0 +1,26 @@
+uuid: 314b9c7f-d69f-4d02-9da6-2cf30f08578b
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - bootstrap_theme
+_core:
+  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
+id: bootstrap_theme_footer
+theme: bootstrap_theme
+region: navigation
+weight: -12
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

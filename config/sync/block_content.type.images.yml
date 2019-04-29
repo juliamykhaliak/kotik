@@ -1,0 +1,8 @@
+uuid: 48855eb9-6030-4f4a-81d5-f1e3541da734
+langcode: en
+status: true
+dependencies: {  }
+id: images
+label: Images(slider)
+revision: 0
+description: ''

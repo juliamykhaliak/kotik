@@ -1,0 +1,24 @@
+uuid: eb9eef7b-368c-418a-ad6b-982b1522707d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-menu
+  module:
+    - system
+  theme:
+    - bootstrap_theme
+id: mainmenu
+theme: bootstrap_theme
+region: navigation
+weight: -14
+provider: null
+plugin: 'system_menu_block:main-menu'
+settings:
+  id: 'system_menu_block:main-menu'
+  label: 'Main menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

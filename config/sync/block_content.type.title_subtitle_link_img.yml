@@ -1,0 +1,8 @@
+uuid: 37a80ac9-5e0a-4d71-8c57-7cbbafe58e09
+langcode: en
+status: true
+dependencies: {  }
+id: title_subtitle_link_img
+label: Title-subtitle-link-img
+revision: 0
+description: ''

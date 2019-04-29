@@ -1,0 +1,25 @@
+uuid: f49e71a9-44c3-40f3-a0fb-a7b9249850b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8020ba8d-b54a-4c69-bebd-b4dc53775f89'
+  module:
+    - block_content
+  theme:
+    - bootstrap_theme
+id: submitad
+theme: bootstrap_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:8020ba8d-b54a-4c69-bebd-b4dc53775f89'
+settings:
+  id: 'block_content:8020ba8d-b54a-4c69-bebd-b4dc53775f89'
+  label: 'Submit ad'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

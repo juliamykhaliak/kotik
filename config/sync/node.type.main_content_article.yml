@@ -1,0 +1,18 @@
+uuid: 1ab10030-1b90-405a-84ec-f5ae54699455
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Main content article'
+type: main_content_article
+description: 'Articles with picture and keyords created by users'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
